@@ -1,0 +1,27 @@
+{
+  "name": "Automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "countdown": "^2.6.0",
+    "discord.js": "^12.5.3",
+    "enmap": "^5.8.6",
+    "express": "^4.17.1",
+    "firebase-admin": "^9.10.0",
+    "fs": "0.0.1-security",
+    "ipapi.co": "^0.3.0",
+    "moment-duration-format": "^2.3.2",
+    "noblox.js": "^4.8.6",
+    "os": "^0.1.2",
+    "request": "^2.88.2",
+    "snekfetch": "^4.0.4"
+  }
+}
