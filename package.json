@@ -27,6 +27,7 @@
     "noblox.js": "^4.8.6",
     "os": "^0.1.2",
     "request": "^2.88.2",
-    "snekfetch": "^4.0.4"
+    "snekfetch": "^4.0.4",
+    "tesseract.js": "^2.1.5"
   }
 }
