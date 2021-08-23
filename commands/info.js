@@ -20,7 +20,6 @@ exports.run = async (client, message, args) => {
         }
     }
 
-    const badgeInfo = await roblox.getBadgeInfo(1)
     let username = args[0]
     if(username) {
         roblox.getIdFromUsername(username).then(id => {
