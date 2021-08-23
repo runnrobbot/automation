@@ -29,9 +29,10 @@ exports.run = async (client, message, args) => {
   .setAuthor("ANNOUNCEMENT | INFORMASI")
   .setDescription(`${suggestion}`)
   .addField("Sent by:", `${message.author}`)
+   
   
   
 
   let suggestionchannel = message.guild.channels.cache.find(x => x.name === "announcement");
-  suggestionchannel.send(suggestionembed)
+  suggestionchannel.send("@everyone",suggestionembed)
   } 
