@@ -4,7 +4,7 @@ let copy = config.copyrightembed
 
 exports.run = async (client, message, args ) => {
 
-    if(!message.member.roles.cache.some(r=>["Verified"].includes(r.name)))
+    if(!message.member.roles.cache.some(r=>["PON | Fans"].includes(r.name)))
     return message.reply("You're not verified.")
 
     let send = new Discord.MessageEmbed()
