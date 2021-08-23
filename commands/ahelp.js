@@ -13,7 +13,7 @@ exports.run = async (client, message, args ) => {
     .setTimestamp()
     .setAuthor("PUBLIC COMMANDS")
     .addField(".info (username)", `Getting information user from roblox`)
-    .addField(".suggestion (message)", `Suggest about group for further update `)
+    .addField(".databot", `Information about bot`)
     message.channel.send(send);
     
 }
